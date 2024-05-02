@@ -106,3 +106,31 @@ Danışmanlık yapılan şirketlerden **saatlik bazda ücret** alırız.
 ## Pazar Pozisyonu
 
 -   Sektörde yeni olduğumuz için tercih edilmede sorun yaşamaktayız.
+
+
+# Q4 Veri Analizi ile Sağlanacak Faydalar
+
+FigTree olarak, R kodu yazarak yapacağımız veri analizi ile şirketimize ve danışanlarımıza aşağıdaki faydaları sağlamayı hedefliyoruz:
+
+## Masraf Azaltması
+
+-   **Veri Analizi Yöntemi**: Çalışanların performans verilerini ve iş süreçlerini analiz ederek, gereksiz masrafların önüne geçeceğiz.
+
+## Karlılık Arttırılması
+
+-   **Veri Analizi Yöntemi**: Satış ve müşteri verilerini analiz ederek, en karlı ürünlerimizi ve hizmetlerimizi belirleyeceğiz.
+
+## Piyasa Genişletilmesi
+
+-   **Veri Analizi Yöntemi**: Pazar araştırması verilerini analiz ederek, yeni pazar fırsatlarını keşfedeceğiz.
+
+## Üretim Hızlandırılması
+
+-   **Veri Analizi Yöntemi**: Üretim verilerini analiz ederek, üretim süreçlerimizi hızlandıracak optimizasyonları tespit edeceğiz.
+
+### Hazırlayanlar:
+
+-   Kadir Karaberzat 200401079
+-   Emir Can Yarar 200401069
+-   İsmail Tekin 200401009
+-   Hasan Orcan Güzey 200401047
