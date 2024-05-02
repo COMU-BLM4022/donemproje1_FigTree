@@ -1,0 +1,31 @@
+![](images/figtree.jpeg){width="382"}
+
+# Q1 Metabase Analizi
+
+## Lisans
+
+Metabase, **GNU Affero Genel Kamu Lisansı (AGPL)** altında sunulan açık kaynaklı bir sürümüne sahiptir. Bu lisans, kodu kullanmak isteyenlerin AGPL'ye uymalarını gerektirir. Ayrıca, **Metabase Ticari Yazılım Lisansı** altında sunulan bir **Enterprise sürümü** de bulunmaktadır. Bu, kurumsal özellikleri kullanabilmek için ticari bir lisansın satın alınmasını gerektirir.
+
+## Kısa Tarihçe
+
+Metabase, kullanıcıların önceki on beş sürüm için sürüm geçmişini takip etmelerine olanak tanıyan bir **sürüm geçmişi** özelliğine sahiptir. Kullanıcılar, değişiklikleri görebilir ve önceki sürümlere geri dönebilirler.
+
+## Özellikler
+
+Metabase, kullanıcılara SQL bilgisi olmadan bile veri sorgulama imkanı sunar. **Görsel Sorgu Oluşturucu**, interaktif **panolar**, **modeller** ve daha birçok özellikle donatılmıştır. Ayrıca, sonuçları ve modelleri önbelleğe alma, kullanıcı davranışlarını denetleme ve resmi içerikleri doğrulama gibi özellikler de sunar.
+
+## Desteklenen Veritabanları ve Teknolojiler
+
+Metabase, **Amazon Athena**, **Amazon Redshift**, **Apache Spark**, **BigQuery**, **MySQL**, **PostgreSQL, SQLite** ve daha birçok dahil olmak üzere 20'den fazla veri kaynağına doğrudan bağlanabilir. Ayrıca, CSV dosyalarını yükleyerek veri tabanları arasında daha fazla veri kaynağını birleştirme imkanı da sağlar.
+
+## API Yetenekleri
+
+Metabase API'si, kullanıcıların programatik istekler için anahtarlar oluşturmasına, özel sorgular çalıştırmasına ve Metabase örneklerini otomatik olarak sağlamasına olanak tanır. API, sık sık değişmez ve neredeyse hiç kaldırılmaz, ancak API'ye dayalı kod yazanların gelecekte kodlarını güncellemeleri gerekebilir.
+
+## Tercih Sebepleri
+
+Metabase, kullanım kolaylığı, maliyet etkinliği, esneklik ve çekici raporlar ve panolar sunması gibi nedenlerle tercih edilmektedir. Ayrıca, açık kaynaklı bir çözüm olması, düşük bakım maliyetleri ve kolay gömülme özellikleri ile öne çıkmaktadır.
+
+Metabase, iş zekası araçları arasında güçlü bir seçenektir ve veri analizi ve görselleştirme ihtiyaçlarınız için değerlendirmeye değer bir araçtır.
+
+
