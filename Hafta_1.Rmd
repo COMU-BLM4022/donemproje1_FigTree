@@ -75,3 +75,34 @@ Veritabanı tablosu, çalışanların çeşitli özelliklerini ve şirket içind
 Bu veri seti, çalışanların şirket içindeki kariyer yollarını ve performanslarını analiz etmek için kullanılabilir. Ayrıca, şirket politikalarının çalışan memnuniyeti ve devamlılığı üzerindeki etkilerini değerlendirmek için de faydalı bir kaynaktır.
 
 Kullanacağımız veri setinin linki: <https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data>
+
+# Q3 FigTree Şirket Profili
+
+**FigTree**, danışan şirketlere çalışanlarının performanslarını ve tatminliklerini analiz ederek, gerekli optimizasyonları tespit edip interaktif tablolar şeklinde sunan bir kurumdur.
+
+## Aktiviteler
+
+1.  **Performans Ölçme**: Çalışanların performansını objektif kriterlere göre değerlendiririz.
+2.  **Tatmin Analizi**: Çalışan tatminini ölçmek için anketler ve görüşmeler yaparız.
+3.  **Şirket İçi Çalışan Davranışı Geliştirme Önerisi**: Verimliliği artırmak için davranışsal stratejiler öneririz.
+4.  **Terfi ve Layoff Önerisi Sunma**: Şirketin ihtiyaçlarına göre terfi veya işten çıkarma önerilerinde bulunuruz.
+
+## Gelir Modeli
+
+Danışmanlık yapılan şirketlerden **saatlik bazda ücret** alırız.
+
+## İş Modeli Avantajları/Dezavantajları
+
+-   **Hissedar Tatminiyeti**: Hissedarlarımızın yüksek tatmin düzeyini hedefliyoruz.
+-   **Tek Bir Şirkete Bağlı Olmama**: Çeşitli sektörlerdeki şirketlerle çalışarak riski dağıtırız.
+-   **Duygusal Tahribat**: Yoğun çalışma ortamı duygusal zorluklara neden olabilir.
+
+## Şirket Sloganları
+
+-   "Biz bu işin piriyiz, en iyisini yaparız, bizden başkası yalan."
+-   "En hızlı ve en doğru sonucu biz veririz."
+-   "Danışan şirketin personelleri daima bizden memnundur."
+
+## Pazar Pozisyonu
+
+-   Sektörde yeni olduğumuz için tercih edilmede sorun yaşamaktayız.
