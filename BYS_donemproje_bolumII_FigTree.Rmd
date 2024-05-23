@@ -1,0 +1,34 @@
+---
+title: "Bilgi yönetim Sistemleri - Bitirme Projesi Rapor"
+author: "Kadir Karaberzat 2004010\n
+Hasan Orcan Güzey 2004010\n
+Emir Can Yarar 200401069\n
+İsmail Tekin 2004010"
+---
+
+# **İş Probleminin Tanımı: FigTree**
+
+**FigTree**, danışan şirketlerin çalışanlarının performansını ve tatminini analiz ederek, gerekli optimizasyonları tespit edip interaktif tablolar şeklinde sunan bir danışmanlık firmasıdır.
+
+1. *Performans Ölçme*: Çalışanların performansını objektif kriterlere göre değerlendiriyoruz.
+2. *Tatmin Analizi*: Çalışan tatminini anketler ve görüşmeler aracılığıyla ölçüyoruz.
+3. *Şirket İçi Çalışan Davranışı Geliştirme Önerisi*: Verimliliği artırmak için davranışsal stratejiler öneriyoruz.
+4. *Terfi ve İşten Çıkarma Önerisi*: Şirketin ihtiyaçlarına göre terfi veya işten çıkarma önerilerinde bulunuyoruz. Gelir modelimiz, danışmanlık yaptığımız şirketlerden **saatlik bazda ücret** almak üzerine kuruludur. Kullandığımız bilgi yönetim sisteminin özellikleri aşağıdaki gibidir:
+
+## **Metabase Özellikleri**
+
+Metabase, kullanıcılara SQL bilgisi olmadan bile veri sorgulama imkanı sunar. **Görsel Sorgu Oluşturucu**, interaktif **panolar**, **modeller** ve daha birçok özellikle donatılmıştır. Ayrıca, sonuçları ve modelleri önbelleğe alabilir, kullanıcı davranışlarını denetleyebilir ve resmi içerikleri doğrulayabilirsiniz.
+
+## **Desteklenen Veritabanları ve Teknolojiler**
+
+Metabase, **Amazon Athena**, **Amazon Redshift**, **Apache Spark**, **BigQuery**, **MySQL**, **PostgreSQL**, **SQLite** ve daha birçok veri kaynağına doğrudan bağlanabilir. Ayrıca, CSV dosyalarını yükleyerek veri tabanları arasında daha fazla veri kaynağını birleştirebilirsiniz.
+
+## **API Yetenekleri**
+
+Metabase API'si, kullanıcıların programatik istekler için anahtarlar oluşturmasına, özel sorgular çalıştırmasına ve Metabase örneklerini otomatik olarak sağlamasına olanak tanır. **API, sık sık değişmez ve neredeyse hiç kaldırılmaz,** ancak API'ye dayalı kod yazanların gelecekte kodlarını güncellemeleri gerekebilir.
+
+## **Tercih Sebepleri**
+
+Metabase, kullanım kolaylığı, maliyet etkinliği, esneklik ve çekici raporlar ve panolar sunması gibi nedenlerle tercih edilmektedir. Ayrıca, açık kaynaklı bir çözüm olması, düşük bakım maliyetleri ve kolay gömülme özellikleri ile öne çıkmaktadır.
+
+Metabase, iş zekası araçları arasında güçlü bir seçenektir ve veri analizi ve *görselleştirme ihtiyaçlarınız için değerlendirmeye* değer bir araçtır.
