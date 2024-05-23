@@ -159,6 +159,35 @@ Kullanacağımız veri setinin linki: <https://www.kaggle.com/datasets/pavansubh
 | YearsSinceLastPromotion    | 1470           | int64   |
 | YearsWithCurrManager       | 1470           | int64   |
 
-# Veri Setini İthali
+# **Veri Setini İthali**
 
 Veri setimiz ".csv" formatında kaggle'dan temin edildikten sonra R aracılığıyla incelenmiş, ardından SQLite veritabanına dönüştürülmüştür. Öncelikle sunucumuza SSH ile bağlanıp oluşturduğumuz ".sqlite" dosyasını gönderdik. Ardından sunucuda docker komutlarını kulanarak Metabase'i bulunduran konteynıra bu dosyayı ekledik. 51.75.71.10:3000 adresindeki arayüzümüze giriş yaparak veritabanımızı Metabase'e tanıttık.
+
+# **Projemizin Temel Amacı: Çalışan Verimliliği Analizi**
+
+Projemizin temel amacı işverenlerin çalışanlardan maksimum verim alabilmesidir. Bu doğrultuda analiz planlarımız aşağıda belirtilmiştir:
+
+1. **Çalışan Verimliliğini Etkileyen Faktörlerin Analizi**
+   - *Tanımlayıcı İstatistikler:* Yaş, cinsiyet, eğitim düzeyi, medeni durum gibi demografik değişkenlerin çalışan verimliliği üzerindeki etkisinin incelenmesi.
+   - *Korelasyon Analizi:* Çalışan verimliliğini temsil eden değişkenlerle (örneğin, İş Memnuniyeti, İşe Katılım) diğer değişkenler arasındaki ilişkinin incelenmesi.
+   - *Görselleştirme:* Verilerin kutu grafikleri, histogramlar ve dağılım grafikleri gibi grafiklerle görselleştirilmesi. Örneğin, Aylık Gelir ve İş Memnuniyeti arasındaki ilişkiyi incelemek için dağılım grafiği kullanımı.
+
+2. **Bağlılık Analizi**
+   - *Bağlılık Oranlarının İncelenmesi:* Hangi grupların (örneğin, İş Seyahati, Departman) daha yüksek bağlılık oranlarına sahip olduğunun belirlenmesi.
+
+3. **Çalışan Memnuniyeti ve Verimlilik**
+   - *Çalışma Ortamı Faktörlerinin İncelenmesi:* Çalışan verimliliği üzerindeki etkileri analiz etmek için Çevre Memnuniyeti, İş Memnuniyeti, İş-Özel Hayat Dengesi gibi faktörlerin incelenmesi.
+   - *Anket Sonuçları Analizi:* Çevre Memnuniyeti, İş Memnuniyeti, İş-Özel Hayat Dengesi gibi memnuniyet ölçütlerinin dağılımının incelenmesi ve bu ölçütlerin performansla ilişkisinin analiz edilmesi.
+
+4. **İş ve Özel Hayat Dengesi**
+   - *İş-Özel Hayat Dengesi Analizi:* Çalışanların iş-yaşam dengesi ile verimlilik arasındaki ilişkinin incelenmesi.
+   - *Fazla Mesai Yapan Çalışanların İş-Özel Hayat Dengesi ve Memnuniyet Durumlarının Analizi:* Fazla mesai yapan çalışanların iş-yaşam dengesi ve memnuniyet durumlarının analiz edilmesi.
+
+5. **Performans ve Kariyer Gelişimi**
+   - *Yıllık Performans İncelemesi:* Performans Değerlendirmesi ve diğer performans ölçütlerinin analiz edilmesi.
+   - *Terfi ve Kariyer Gelişimi:* Son Terfi Tarihinden Sonra Geçen Yıllar ve Mevcut Pozisyonda Geçen Yıllar gibi değişkenlerin çalışan memnuniyeti ve verimliliği üzerindeki etkisinin incelenmesi.
+
+6. **Sonuçlar**
+   - *Analiz Sonuçlarının Raporlanması:* Elde edilen bulguların özetlenmesi ve işverenler için önemli çıkarımların vurgulanması.
+
+
