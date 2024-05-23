@@ -413,6 +413,304 @@ analizi ve <em>görselleştirme ihtiyaçlarınız için değerlendirmeye</em>
 değer bir araçtır.</p>
 </div>
 </div>
+<div id="ibm-kurgusal-veri-seti-analizi" class="section level1">
+<h1><strong>IBM Kurgusal Veri Seti Analizi</strong></h1>
+<p>Bu veri seti, IBM veri bilimcileri tarafından oluşturulmuş kurgusal
+bir veri setidir. Amacımız, bu veri setini bir SQLite veritabanında
+Metabase üzerinde oluşturmak ve R programlama dili kullanarak bağlantı
+kurmaktır.</p>
+<div id="veritabanı-tablosu-sütunları" class="section level2">
+<h2><strong>Veritabanı Tablosu Sütunları</strong></h2>
+<p>Veritabanı tablosu, çalışanların çeşitli özelliklerini ve şirket
+içindeki durumlarını yansıtan aşağıdaki sütunlara sahiptir:</p>
+<ul>
+<li><strong>Yaş</strong> (<code>Age</code>)</li>
+<li><strong>Ayrılma</strong> (<code>Attrition</code>)</li>
+<li><strong>İş Seyahati</strong> (<code>BusinessTravel</code>)</li>
+<li><strong>Günlük Ücret</strong> (<code>DailyRate</code>)</li>
+<li><strong>Departman</strong> (<code>Department</code>)</li>
+<li><strong>Evden Uzaklık</strong> (<code>DistanceFromHome</code>)</li>
+<li><strong>Eğitim</strong> (<code>Education</code>)</li>
+<li><strong>Eğitim Alanı</strong> (<code>EducationField</code>)</li>
+<li><strong>Çalışan Sayısı</strong> (<code>EmployeeCount</code>)</li>
+<li><strong>Çalışan Numarası</strong> (<code>EmployeeNumber</code>)</li>
+<li><strong>Çevre Tatmini</strong>
+(<code>EnvironmentSatisfaction</code>)</li>
+<li><strong>Cinsiyet</strong> (<code>Gender</code>)</li>
+<li><strong>Saatlik Ücret</strong> (<code>HourlyRate</code>)</li>
+<li><strong>İşe Katılım</strong> (<code>JobInvolvement</code>)</li>
+<li><strong>İş Seviyesi</strong> (<code>JobLevel</code>)</li>
+<li><strong>İş Rolü</strong> (<code>JobRole</code>)</li>
+<li><strong>İş Tatmini</strong> (<code>JobSatisfaction</code>)</li>
+<li><strong>Medeni Durum</strong> (<code>MaritalStatus</code>)</li>
+<li><strong>Aylık Gelir</strong> (<code>MonthlyIncome</code>)</li>
+<li><strong>Aylık Ücret</strong> (<code>MonthlyRate</code>)</li>
+<li><strong>Çalışılan Şirket Sayısı</strong>
+(<code>NumCompaniesWorked</code>)</li>
+<li><strong>18 Yaş Üstü</strong> (<code>Over18</code>)</li>
+<li><strong>Fazla Mesai</strong> (<code>OverTime</code>)</li>
+<li><strong>Maaş Artış Yüzdesi</strong>
+(<code>PercentSalaryHike</code>)</li>
+<li><strong>Performans Değerlendirmesi</strong>
+(<code>PerformanceRating</code>)</li>
+<li><strong>İlişki Tatmini</strong>
+(<code>RelationshipSatisfaction</code>)</li>
+<li><strong>Standart Saatler</strong> (<code>StandardHours</code>)</li>
+<li><strong>Hisse Senedi Seçenek Seviyesi</strong>
+(<code>StockOptionLevel</code>)</li>
+<li><strong>Toplam Çalışma Yılları</strong>
+(<code>TotalWorkingYears</code>)</li>
+<li><strong>Son Yıldaki Eğitim Süreleri</strong>
+(<code>TrainingTimesLastYear</code>)</li>
+<li><strong>İş-Yaşam Dengesi</strong>
+(<code>WorkLifeBalance</code>)</li>
+<li><strong>Şirketteki Yıllar</strong>
+(<code>YearsAtCompany</code>)</li>
+<li><strong>Güncel Roldeki Yıllar</strong>
+(<code>YearsInCurrentRole</code>)</li>
+<li><strong>Son Terfi Tarihinden İtibaren Geçen Yıllar</strong>
+(<code>YearsSinceLastPromotion</code>)</li>
+<li><strong>Mevcut Yöneticiyle Geçirilen Yıllar</strong>
+(<code>YearsWithCurrManager</code>)</li>
+</ul>
+<p>Bu veri seti, çalışanların şirket içindeki kariyer yollarını ve
+performanslarını analiz etmek için kullanılabilir. Ayrıca, şirket
+politikalarının çalışan memnuniyeti ve devamlılığı üzerindeki etkilerini
+değerlendirmek için de faydalı bir kaynaktır.</p>
+<p>Kullanacağımız veri setinin linki: <a href="https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data" class="uri">https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data</a></p>
+</div>
+</div>
+<div id="veri-seti-detayları" class="section level1">
+<h1><strong>Veri Seti Detayları</strong></h1>
+<p><strong>Age (Yaş):</strong> Çalışanın yaşı, bağlılık üzerinde etkili
+olabilir.</p>
+<p><strong>Attrition (Bağlılık):</strong> Çalışanın şirkette kalıp
+kalmadığını gösteren hedef değişken.</p>
+<p><strong>BusinessTravel (İş Seyahati):</strong> İş seyahatlerinin
+sıklığı, çalışan memnuniyetini ve bağlılığını etkileyebilir.</p>
+<p><strong>Department (Departman):</strong> Çalışanın çalıştığı
+departman, bağlılık üzerinde etkili olabilir.</p>
+<p><strong>DistanceFromHome (Evin Uzaklığı):</strong> Evden işe olan
+mesafe, çalışan memnuniyeti ve bağlılığı üzerinde etkili olabilir.</p>
+<p><strong>Education (Eğitim):</strong> Eğitim seviyesi, çalışanların
+kariyer beklentilerini ve bağlılıklarını etkileyebilir.</p>
+<p><strong>EnvironmentSatisfaction (Çevresel Memnuniyet):</strong>
+Çalışma ortamından memnuniyet, çalışan bağlılığı üzerinde doğrudan
+etkilidir.</p>
+<p><strong>JobInvolvement (İşe Katılım):</strong> Çalışanın işine olan
+bağlılığı ve katılımı.</p>
+<p><strong>JobLevel (İş Seviyesi):</strong> Çalışanın hiyerarşideki
+yeri, bağlılığı etkileyebilir.</p>
+<p><strong>JobRole (İş Rolü):</strong> Çalışanın rolü ve sorumlulukları,
+bağlılık üzerinde etkili olabilir.</p>
+<p><strong>JobSatisfaction (İş Memnuniyeti):</strong> İş memnuniyeti,
+çalışan bağlılığının önemli bir göstergesidir.</p>
+<p><strong>MaritalStatus (Medeni Durum):</strong> Çalışanın medeni
+durumu, iş ve özel hayat dengesini etkileyebilir.</p>
+<p><strong>MonthlyIncome (Aylık Gelir):</strong> Çalışanın geliri, iş
+memnuniyeti ve bağlılığı üzerinde etkili olabilir.</p>
+<p><strong>OverTime (Fazla Mesai):</strong> Fazla mesai yapma durumu,
+çalışan memnuniyetini etkileyebilir.</p>
+<p><strong>WorkLifeBalance (İş-Yaşam Dengesi):</strong> İş ve özel hayat
+dengesinin memnuniyeti.</p>
+<p><strong>YearsAtCompany (Şirketteki Yıllar):</strong> Çalışanın
+şirkette ne kadar süre çalıştığı, bağlılık üzerinde önemli bir
+faktördür.</p>
+<p><strong>YearsInCurrentRole (Mevcut Roldeki Yıllar):</strong> Mevcut
+pozisyonda geçirilen süre.</p>
+<p><strong>YearsSinceLastPromotion (Son Terfiden İtibaren Geçen
+Yıllar):</strong> Terfi sıklığı, çalışan memnuniyetini
+etkileyebilir.</p>
+<p><strong>YearsWithCurrManager (Mevcut Yönetici ile Geçirilen
+Yıllar):</strong> Mevcut yönetici ile çalışılan süre, çalışan
+memnuniyeti ve bağlılığı üzerinde etkili olabilir.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Kolon</th>
+<th>Non-Null Sayısı</th>
+<th>Dtype</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Age</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>Attrition</td>
+<td>1470</td>
+<td>object</td>
+</tr>
+<tr class="odd">
+<td>BusinessTravel</td>
+<td>1470</td>
+<td>object</td>
+</tr>
+<tr class="even">
+<td>DailyRate</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>Department</td>
+<td>1470</td>
+<td>object</td>
+</tr>
+<tr class="even">
+<td>DistanceFromHome</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>Education</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>EducationField</td>
+<td>1470</td>
+<td>object</td>
+</tr>
+<tr class="odd">
+<td>EmployeeCount</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>EmployeeNumber</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>EnvironmentSatisfaction</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>Gender</td>
+<td>1470</td>
+<td>object</td>
+</tr>
+<tr class="odd">
+<td>HourlyRate</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>JobInvolvement</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>JobLevel</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>JobRole</td>
+<td>1470</td>
+<td>object</td>
+</tr>
+<tr class="odd">
+<td>JobSatisfaction</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>MaritalStatus</td>
+<td>1470</td>
+<td>object</td>
+</tr>
+<tr class="odd">
+<td>MonthlyIncome</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>MonthlyRate</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>NumCompaniesWorked</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>Over18</td>
+<td>1470</td>
+<td>object</td>
+</tr>
+<tr class="odd">
+<td>OverTime</td>
+<td>1470</td>
+<td>object</td>
+</tr>
+<tr class="even">
+<td>PercentSalaryHike</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>PerformanceRating</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>RelationshipSatisfaction</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>StandardHours</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>StockOptionLevel</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>TotalWorkingYears</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>TrainingTimesLastYear</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>WorkLifeBalance</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>YearsAtCompany</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>YearsInCurrentRole</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="even">
+<td>YearsSinceLastPromotion</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+<tr class="odd">
+<td>YearsWithCurrManager</td>
+<td>1470</td>
+<td>int64</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
 
