@@ -480,7 +480,6 @@ değerlendirmek için de faydalı bir kaynaktır.</p>
 <p>Kullanacağımız veri setinin linki: <a href="https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data" class="uri">https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data</a></p>
 </div>
 </div>
-
 <div id="veri-seti-detayları" class="section level1">
 <h1><strong>Veri Seti Detayları</strong></h1>
 <p><strong>Age (Yaş):</strong> Çalışanın yaşı, bağlılık üzerinde etkili
@@ -711,6 +710,15 @@ memnuniyeti ve bağlılığı üzerinde etkili olabilir.</p>
 </tr>
 </tbody>
 </table>
+</div>
+<div id="veri-setini-ithali" class="section level1">
+<h1>Veri Setini İthali</h1>
+<p>Veri setimiz “.csv” formatında kaggle’dan temin edildikten sonra R
+aracılığıyla incelenmiş, ardından SQLite veritabanına dönüştürülmüştür.
+Öncelikle sunucumuza SSH ile bağlanıp oluşturduğumuz “.sqlite” dosyasını
+gönderdik. Ardından sunucuda docker komutlarını kulanarak Metabase’i
+bulunduran konteynıra bu dosyayı ekledik. 51.75.71.10:3000 adresindeki
+arayüzümüze giriş yaparak veritabanımızı Metabase’e tanıttık.</p>
 </div>
 
 
