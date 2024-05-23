@@ -32,3 +32,51 @@ Metabase API'si, kullanıcıların programatik istekler için anahtarlar oluştu
 Metabase, kullanım kolaylığı, maliyet etkinliği, esneklik ve çekici raporlar ve panolar sunması gibi nedenlerle tercih edilmektedir. Ayrıca, açık kaynaklı bir çözüm olması, düşük bakım maliyetleri ve kolay gömülme özellikleri ile öne çıkmaktadır.
 
 Metabase, iş zekası araçları arasında güçlü bir seçenektir ve veri analizi ve *görselleştirme ihtiyaçlarınız için değerlendirmeye* değer bir araçtır.
+
+# **IBM Kurgusal Veri Seti Analizi**
+
+Bu veri seti, IBM veri bilimcileri tarafından oluşturulmuş kurgusal bir veri setidir. Amacımız, bu veri setini bir SQLite veritabanında Metabase üzerinde oluşturmak ve R programlama dili kullanarak bağlantı kurmaktır.
+
+## **Veritabanı Tablosu Sütunları**
+
+Veritabanı tablosu, çalışanların çeşitli özelliklerini ve şirket içindeki durumlarını yansıtan aşağıdaki sütunlara sahiptir:
+
+-   **Yaş** (`Age`)
+-   **Ayrılma** (`Attrition`)
+-   **İş Seyahati** (`BusinessTravel`)
+-   **Günlük Ücret** (`DailyRate`)
+-   **Departman** (`Department`)
+-   **Evden Uzaklık** (`DistanceFromHome`)
+-   **Eğitim** (`Education`)
+-   **Eğitim Alanı** (`EducationField`)
+-   **Çalışan Sayısı** (`EmployeeCount`)
+-   **Çalışan Numarası** (`EmployeeNumber`)
+-   **Çevre Tatmini** (`EnvironmentSatisfaction`)
+-   **Cinsiyet** (`Gender`)
+-   **Saatlik Ücret** (`HourlyRate`)
+-   **İşe Katılım** (`JobInvolvement`)
+-   **İş Seviyesi** (`JobLevel`)
+-   **İş Rolü** (`JobRole`)
+-   **İş Tatmini** (`JobSatisfaction`)
+-   **Medeni Durum** (`MaritalStatus`)
+-   **Aylık Gelir** (`MonthlyIncome`)
+-   **Aylık Ücret** (`MonthlyRate`)
+-   **Çalışılan Şirket Sayısı** (`NumCompaniesWorked`)
+-   **18 Yaş Üstü** (`Over18`)
+-   **Fazla Mesai** (`OverTime`)
+-   **Maaş Artış Yüzdesi** (`PercentSalaryHike`)
+-   **Performans Değerlendirmesi** (`PerformanceRating`)
+-   **İlişki Tatmini** (`RelationshipSatisfaction`)
+-   **Standart Saatler** (`StandardHours`)
+-   **Hisse Senedi Seçenek Seviyesi** (`StockOptionLevel`)
+-   **Toplam Çalışma Yılları** (`TotalWorkingYears`)
+-   **Son Yıldaki Eğitim Süreleri** (`TrainingTimesLastYear`)
+-   **İş-Yaşam Dengesi** (`WorkLifeBalance`)
+-   **Şirketteki Yıllar** (`YearsAtCompany`)
+-   **Güncel Roldeki Yıllar** (`YearsInCurrentRole`)
+-   **Son Terfi Tarihinden İtibaren Geçen Yıllar** (`YearsSinceLastPromotion`)
+-   **Mevcut Yöneticiyle Geçirilen Yıllar** (`YearsWithCurrManager`)
+
+Bu veri seti, çalışanların şirket içindeki kariyer yollarını ve performanslarını analiz etmek için kullanılabilir. Ayrıca, şirket politikalarının çalışan memnuniyeti ve devamlılığı üzerindeki etkilerini değerlendirmek için de faydalı bir kaynaktır.
+
+Kullanacağımız veri setinin linki: <https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data>
