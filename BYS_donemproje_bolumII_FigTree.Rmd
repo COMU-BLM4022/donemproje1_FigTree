@@ -159,3 +159,6 @@ Kullanacağımız veri setinin linki: <https://www.kaggle.com/datasets/pavansubh
 | YearsSinceLastPromotion    | 1470           | int64   |
 | YearsWithCurrManager       | 1470           | int64   |
 
+# Veri Setini İthali
+
+Veri setimiz ".csv" formatında kaggle'dan temin edildikten sonra R aracılığıyla incelenmiş, ardından SQLite veritabanına dönüştürülmüştür. Öncelikle sunucumuza SSH ile bağlanıp oluşturduğumuz ".sqlite" dosyasını gönderdik. Ardından sunucuda docker komutlarını kulanarak Metabase'i bulunduran konteynıra bu dosyayı ekledik. 51.75.71.10:3000 adresindeki arayüzümüze giriş yaparak veritabanımızı Metabase'e tanıttık.
