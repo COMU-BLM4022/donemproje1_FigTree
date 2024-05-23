@@ -711,14 +711,73 @@ memnuniyeti ve bağlılığı üzerinde etkili olabilir.</p>
 </tbody>
 </table>
 </div>
-<div id="veri-setini-ithali" class="section level1">
-<h1>Veri Setini İthali</h1>
+<div id="veri-setinin-ithali" class="section level1">
+<h1><strong>Veri Setinin İthali</strong></h1>
 <p>Veri setimiz “.csv” formatında kaggle’dan temin edildikten sonra R
 aracılığıyla incelenmiş, ardından SQLite veritabanına dönüştürülmüştür.
 Öncelikle sunucumuza SSH ile bağlanıp oluşturduğumuz “.sqlite” dosyasını
 gönderdik. Ardından sunucuda docker komutlarını kulanarak Metabase’i
 bulunduran konteynıra bu dosyayı ekledik. 51.75.71.10:3000 adresindeki
 arayüzümüze giriş yaparak veritabanımızı Metabase’e tanıttık.</p>
+</div>
+<div id="projemizin-temel-amacı-çalışan-verimliliği-analizi" class="section level1">
+<h1><strong>Projemizin Temel Amacı: Çalışan Verimliliği
+Analizi</strong></h1>
+<p>Projemizin temel amacı işverenlerin çalışanlardan maksimum verim
+alabilmesidir. Bu doğrultuda analiz planlarımız aşağıda
+belirtilmiştir:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Çalışan Verimliliğini Etkileyen Faktörlerin Analizi</strong>
+<ul>
+<li><em>Tanımlayıcı İstatistikler:</em> Yaş, cinsiyet, eğitim düzeyi,
+medeni durum gibi demografik değişkenlerin çalışan verimliliği
+üzerindeki etkisinin incelenmesi.</li>
+<li><em>Korelasyon Analizi:</em> Çalışan verimliliğini temsil eden
+değişkenlerle (örneğin, İş Memnuniyeti, İşe Katılım) diğer değişkenler
+arasındaki ilişkinin incelenmesi.</li>
+<li><em>Görselleştirme:</em> Verilerin kutu grafikleri, histogramlar ve
+dağılım grafikleri gibi grafiklerle görselleştirilmesi. Örneğin, Aylık
+Gelir ve İş Memnuniyeti arasındaki ilişkiyi incelemek için dağılım
+grafiği kullanımı.</li>
+</ul></li>
+<li><strong>Bağlılık Analizi</strong>
+<ul>
+<li><em>Bağlılık Oranlarının İncelenmesi:</em> Hangi grupların (örneğin,
+İş Seyahati, Departman) daha yüksek bağlılık oranlarına sahip olduğunun
+belirlenmesi.</li>
+</ul></li>
+<li><strong>Çalışan Memnuniyeti ve Verimlilik</strong>
+<ul>
+<li><em>Çalışma Ortamı Faktörlerinin İncelenmesi:</em> Çalışan
+verimliliği üzerindeki etkileri analiz etmek için Çevre Memnuniyeti, İş
+Memnuniyeti, İş-Özel Hayat Dengesi gibi faktörlerin incelenmesi.</li>
+<li><em>Anket Sonuçları Analizi:</em> Çevre Memnuniyeti, İş Memnuniyeti,
+İş-Özel Hayat Dengesi gibi memnuniyet ölçütlerinin dağılımının
+incelenmesi ve bu ölçütlerin performansla ilişkisinin analiz
+edilmesi.</li>
+</ul></li>
+<li><strong>İş ve Özel Hayat Dengesi</strong>
+<ul>
+<li><em>İş-Özel Hayat Dengesi Analizi:</em> Çalışanların iş-yaşam
+dengesi ile verimlilik arasındaki ilişkinin incelenmesi.</li>
+<li><em>Fazla Mesai Yapan Çalışanların İş-Özel Hayat Dengesi ve
+Memnuniyet Durumlarının Analizi:</em> Fazla mesai yapan çalışanların
+iş-yaşam dengesi ve memnuniyet durumlarının analiz edilmesi.</li>
+</ul></li>
+<li><strong>Performans ve Kariyer Gelişimi</strong>
+<ul>
+<li><em>Yıllık Performans İncelemesi:</em> Performans Değerlendirmesi ve
+diğer performans ölçütlerinin analiz edilmesi.</li>
+<li><em>Terfi ve Kariyer Gelişimi:</em> Son Terfi Tarihinden Sonra Geçen
+Yıllar ve Mevcut Pozisyonda Geçen Yıllar gibi değişkenlerin çalışan
+memnuniyeti ve verimliliği üzerindeki etkisinin incelenmesi.</li>
+</ul></li>
+<li><strong>Sonuçlar</strong>
+<ul>
+<li><em>Analiz Sonuçlarının Raporlanması:</em> Elde edilen bulguların
+özetlenmesi ve işverenler için önemli çıkarımların vurgulanması.</li>
+</ul></li>
+</ol>
 </div>
 
 
