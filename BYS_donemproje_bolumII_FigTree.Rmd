@@ -158,3 +158,4 @@ Kullanacağımız veri setinin linki: <https://www.kaggle.com/datasets/pavansubh
 | YearsInCurrentRole         | 1470           | int64   |
 | YearsSinceLastPromotion    | 1470           | int64   |
 | YearsWithCurrManager       | 1470           | int64   |
+
