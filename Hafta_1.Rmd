@@ -1,0 +1,136 @@
+![](images/figtree.jpeg){width="382"}
+
+# Q1 Metabase Analizi
+
+## Lisans
+
+Metabase, **GNU Affero Genel Kamu Lisansı (AGPL)** altında sunulan açık kaynaklı bir sürümüne sahiptir. Bu lisans, kodu kullanmak isteyenlerin AGPL'ye uymalarını gerektirir. Ayrıca, **Metabase Ticari Yazılım Lisansı** altında sunulan bir **Enterprise sürümü** de bulunmaktadır. Bu, kurumsal özellikleri kullanabilmek için ticari bir lisansın satın alınmasını gerektirir.
+
+## Kısa Tarihçe
+
+Metabase, kullanıcıların önceki on beş sürüm için sürüm geçmişini takip etmelerine olanak tanıyan bir **sürüm geçmişi** özelliğine sahiptir. Kullanıcılar, değişiklikleri görebilir ve önceki sürümlere geri dönebilirler.
+
+## Özellikler
+
+Metabase, kullanıcılara SQL bilgisi olmadan bile veri sorgulama imkanı sunar. **Görsel Sorgu Oluşturucu**, interaktif **panolar**, **modeller** ve daha birçok özellikle donatılmıştır. Ayrıca, sonuçları ve modelleri önbelleğe alma, kullanıcı davranışlarını denetleme ve resmi içerikleri doğrulama gibi özellikler de sunar.
+
+## Desteklenen Veritabanları ve Teknolojiler
+
+Metabase, **Amazon Athena**, **Amazon Redshift**, **Apache Spark**, **BigQuery**, **MySQL**, **PostgreSQL, SQLite** ve daha birçok dahil olmak üzere 20'den fazla veri kaynağına doğrudan bağlanabilir. Ayrıca, CSV dosyalarını yükleyerek veri tabanları arasında daha fazla veri kaynağını birleştirme imkanı da sağlar.
+
+## API Yetenekleri
+
+Metabase API'si, kullanıcıların programatik istekler için anahtarlar oluşturmasına, özel sorgular çalıştırmasına ve Metabase örneklerini otomatik olarak sağlamasına olanak tanır. API, sık sık değişmez ve neredeyse hiç kaldırılmaz, ancak API'ye dayalı kod yazanların gelecekte kodlarını güncellemeleri gerekebilir.
+
+## Tercih Sebepleri
+
+Metabase, kullanım kolaylığı, maliyet etkinliği, esneklik ve çekici raporlar ve panolar sunması gibi nedenlerle tercih edilmektedir. Ayrıca, açık kaynaklı bir çözüm olması, düşük bakım maliyetleri ve kolay gömülme özellikleri ile öne çıkmaktadır.
+
+Metabase, iş zekası araçları arasında güçlü bir seçenektir ve veri analizi ve görselleştirme ihtiyaçlarınız için değerlendirmeye değer bir araçtır.
+
+# Q2 IBM Kurgusal Veri Seti Analizi
+
+Bu veri seti, IBM veri bilimcileri tarafından oluşturulmuş kurgusal bir veri setidir. Amacımız, bu veri setini bir SQLite veritabanında Metabase üzerinde oluşturmak ve R programlama dili kullanarak bağlantı kurmaktır.
+
+## Veritabanı Tablosu Sütunları
+
+Veritabanı tablosu, çalışanların çeşitli özelliklerini ve şirket içindeki durumlarını yansıtan aşağıdaki sütunlara sahiptir:
+
+-   **Yaş** (`Age`)
+-   **Ayrılma** (`Attrition`)
+-   **İş Seyahati** (`BusinessTravel`)
+-   **Günlük Ücret** (`DailyRate`)
+-   **Departman** (`Department`)
+-   **Evden Uzaklık** (`DistanceFromHome`)
+-   **Eğitim** (`Education`)
+-   **Eğitim Alanı** (`EducationField`)
+-   **Çalışan Sayısı** (`EmployeeCount`)
+-   **Çalışan Numarası** (`EmployeeNumber`)
+-   **Çevre Tatmini** (`EnvironmentSatisfaction`)
+-   **Cinsiyet** (`Gender`)
+-   **Saatlik Ücret** (`HourlyRate`)
+-   **İşe Katılım** (`JobInvolvement`)
+-   **İş Seviyesi** (`JobLevel`)
+-   **İş Rolü** (`JobRole`)
+-   **İş Tatmini** (`JobSatisfaction`)
+-   **Medeni Durum** (`MaritalStatus`)
+-   **Aylık Gelir** (`MonthlyIncome`)
+-   **Aylık Ücret** (`MonthlyRate`)
+-   **Çalışılan Şirket Sayısı** (`NumCompaniesWorked`)
+-   **18 Yaş Üstü** (`Over18`)
+-   **Fazla Mesai** (`OverTime`)
+-   **Maaş Artış Yüzdesi** (`PercentSalaryHike`)
+-   **Performans Değerlendirmesi** (`PerformanceRating`)
+-   **İlişki Tatmini** (`RelationshipSatisfaction`)
+-   **Standart Saatler** (`StandardHours`)
+-   **Hisse Senedi Seçenek Seviyesi** (`StockOptionLevel`)
+-   **Toplam Çalışma Yılları** (`TotalWorkingYears`)
+-   **Son Yıldaki Eğitim Süreleri** (`TrainingTimesLastYear`)
+-   **İş-Yaşam Dengesi** (`WorkLifeBalance`)
+-   **Şirketteki Yıllar** (`YearsAtCompany`)
+-   **Güncel Roldeki Yıllar** (`YearsInCurrentRole`)
+-   **Son Terfi Tarihinden İtibaren Geçen Yıllar** (`YearsSinceLastPromotion`)
+-   **Mevcut Yöneticiyle Geçirilen Yıllar** (`YearsWithCurrManager`)
+
+Bu veri seti, çalışanların şirket içindeki kariyer yollarını ve performanslarını analiz etmek için kullanılabilir. Ayrıca, şirket politikalarının çalışan memnuniyeti ve devamlılığı üzerindeki etkilerini değerlendirmek için de faydalı bir kaynaktır.
+
+Kullanacağımız veri setinin linki: <https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data>
+
+# Q3 FigTree Şirket Profili
+
+**FigTree**, danışan şirketlere çalışanlarının performanslarını ve tatminliklerini analiz ederek, gerekli optimizasyonları tespit edip interaktif tablolar şeklinde sunan bir kurumdur.
+
+## Aktiviteler
+
+1.  **Performans Ölçme**: Çalışanların performansını objektif kriterlere göre değerlendiririz.
+2.  **Tatmin Analizi**: Çalışan tatminini ölçmek için anketler ve görüşmeler yaparız.
+3.  **Şirket İçi Çalışan Davranışı Geliştirme Önerisi**: Verimliliği artırmak için davranışsal stratejiler öneririz.
+4.  **Terfi ve Layoff Önerisi Sunma**: Şirketin ihtiyaçlarına göre terfi veya işten çıkarma önerilerinde bulunuruz.
+
+## Gelir Modeli
+
+Danışmanlık yapılan şirketlerden **saatlik bazda ücret** alırız.
+
+## İş Modeli Avantajları/Dezavantajları
+
+-   **Hissedar Tatminiyeti**: Hissedarlarımızın yüksek tatmin düzeyini hedefliyoruz.
+-   **Tek Bir Şirkete Bağlı Olmama**: Çeşitli sektörlerdeki şirketlerle çalışarak riski dağıtırız.
+-   **Duygusal Tahribat**: Yoğun çalışma ortamı duygusal zorluklara neden olabilir.
+
+## Şirket Sloganları
+
+-   "Biz bu işin piriyiz, en iyisini yaparız, bizden başkası yalan."
+-   "En hızlı ve en doğru sonucu biz veririz."
+-   "Danışan şirketin personelleri daima bizden memnundur."
+
+## Pazar Pozisyonu
+
+-   Sektörde yeni olduğumuz için tercih edilmede sorun yaşamaktayız.
+
+
+# Q4 Veri Analizi ile Sağlanacak Faydalar
+
+FigTree olarak, R kodu yazarak yapacağımız veri analizi ile şirketimize ve danışanlarımıza aşağıdaki faydaları sağlamayı hedefliyoruz:
+
+## Masraf Azaltması
+
+-   **Veri Analizi Yöntemi**: Çalışanların performans verilerini ve iş süreçlerini analiz ederek, gereksiz masrafların önüne geçeceğiz.
+
+## Karlılık Arttırılması
+
+-   **Veri Analizi Yöntemi**: Satış ve müşteri verilerini analiz ederek, en karlı ürünlerimizi ve hizmetlerimizi belirleyeceğiz.
+
+## Piyasa Genişletilmesi
+
+-   **Veri Analizi Yöntemi**: Pazar araştırması verilerini analiz ederek, yeni pazar fırsatlarını keşfedeceğiz.
+
+## Üretim Hızlandırılması
+
+-   **Veri Analizi Yöntemi**: Üretim verilerini analiz ederek, üretim süreçlerimizi hızlandıracak optimizasyonları tespit edeceğiz.
+
+### Hazırlayanlar:
+
+-   Kadir Karaberzat 200401079
+-   Emir Can Yarar 200401069
+-   İsmail Tekin 200401009
+-   Hasan Orcan Güzey 200401047
