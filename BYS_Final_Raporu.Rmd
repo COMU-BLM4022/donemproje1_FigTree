@@ -12,6 +12,7 @@ Yıpranma oranı, bir organizasyon içindeki çalışanların işten ayrılma or
 - Çalışanın hastalanması veya ölümü.
 - Aşırı çalışma saatleri.
 # Veri Analizinden Elde Edilen Ana Bulgular
+
 ### 1. Demografik Veriler ve Karşılaştırması 
 
 Yaş ve Performans Değerleri: 30-40 yaş arası çalışanlar, hem performans derecelendirmelerinde (3 ve 4) yoğunluk göstermektedir. Medyan yaş yaklaşık 35'tir. Cinsiyete göre performans karşılaştırmalarında benzer desenler gözlenmekte, ancak erkeklerde performans seviyesi 3 olanların sayısı daha fazladır. Eğitim seviyeleri arttıkça çalışan sayısı azalmaktadır. Evlilik durumu grafikleri ise birbirine benzerdir.
@@ -19,15 +20,19 @@ Yaş ve Performans Değerleri: 30-40 yaş arası çalışanlar, hem performans d
 ### 2. Yaşa ve Cinsiyete Göre Yıpranma Oranı 
 
 Erkek çalışanların yıpranma oranı kadınlardan daha yüksektir ve ortalama yaş 37'dir. Dağılımlar normal dağılıma oldukça yakındır.
+
 ### 3. Maaş Dağılımı ve Yıpranma Oranı 
 
 Erkek ve kadın çalışanların maaşları birbirine benzer, ancak erkeklerde maaş dalgalanması daha fazladır ve yıpranma oranı da yüksektir. Erkeklerde 7k-13k maaş aralığında çalışanların yıpranma oranı yüksektir, bunun nedeni satış departmanında çalışmalarıdır.
+
 ### 4. Maaş Artışı Yüzdesi ve Yıpranma Oranı 
 
 Yıpranma oranı %20-25 aralığında yüksektir. Bu aralıktaki çalışanların performans derecelendirmesi 4 (yüksek seviye) olmasına rağmen, ortalama maaş olan 6500'den çok daha düşük aylık gelirleri vardır (3800). Bu, iş memnuniyetinin düşük olmasının bir sebebi olabilir.
+
 ### 5. Cinsiyete Göre Yıpranma Oranı 
 
 Erkeklerde yıpranma oranı %2.2 daha fazladır. Araştırmalara göre, erkeklerde boşanma oranı kadınlardan belirgin şekilde yüksektir ve bu durum iş yaşamını etkileyebilir.
+
 ### 6. Departmana Göre Yıpranma Oranı 
 
 HR ve satış departmanlarında belirgin farklar vardır. Satış departmanında iş tatmini 1, 2, 3 ve 4 arasında eşit dağılmıştır. Şirketimizin iyileştirme önerileri şunlardır:
@@ -43,26 +48,35 @@ Seyahat sıklığını azaltma veya alternatif çalışma düzenlemeleri.
 Ekstra destek hizmetleri sağlama.
 Seyahat tazminatları ve teşvikler sunma.
 Sağlık ve refah programları geliştirme.
+
 ### 8. Eğitim Alanına Göre Yıpranma Oranı 
+
 Teknik alanda diploması olanlar satış departmanında çalışıyor olabilir, bu da yıpranma oranını etkileyebilir. HR çalışanlarının maaşları ortalamanın altında olup, bu durum yıpranmanın ana sebebidir.
+
 ### 9. İş Seviyesine Göre Yıpranma Oranı 
 
 seviyedeki çalışanların yıpranma oranı yüksektir ve ortalama maaşları 2600 olup, bu durum yıpranmanın ana sebebidir.
+
 ### 10. İş-Yaşam Dengesi ve Yıpranma Oranı 
 
 İş-yaşam dengesi en düşük olanların yıpranma oranı yüksektir. Bu grubun iş memnuniyeti düşük ve rol değiştirme oranı yüksektir.
+
 ### 11. İş Rolleri ve Yıpranma Oranı 
 
 Satış ve AR-GE alanlarında yıpranma oranı yüksektir. Özellikle laboratuvar teknisyenlerinin maaşları genel ortalamanın altındadır.
+
 ### 12. Zaman Boyutlarına Göre Yıpranma Oranı 
 
 Şirkette geçirilen yıllar arttıkça yıpranma oranı azalır. Mevcut yöneticiyle geçen yıllar arttıkça personel kaybı azalır.
+
 ### 13. Aylık Gelire Göre Yıpranma Oranı 
 
 Daha az maaş alan çalışanların yıpranma oranı daha yüksektir.
+
 ### 14. Toplam Çalışma Yıllarına Göre Yıpranma Oranı 
 
 Veri analizine göre, toplam çalışma yılları arttıkça yıpranma oranı azalır.
+
 ### 15. Çalışan Memnuniyeti 
 
 Düşük iş memnuniyeti ve çevre memnuniyeti olan çalışanların yıpranma oranı yüksektir.
