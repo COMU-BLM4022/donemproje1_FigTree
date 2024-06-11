@@ -1,0 +1,89 @@
+# Giriş
+
+Fig Tree ekibi olarak oluşturduğumuz danışmanlık iş modeli istenilen sonuçları vermektedir. Aklımızdaki proje fikrini hem teorikte hem de pratikte oluşturmuş bulunmaktayız. Bu savı destekleyecek analiz örnek bir analiz raporu aşağıdaki gibidir. Bu analiz sunumda da konu edinilmiştir.
+
+# Çalışan Yıpranma Oranı Analizi ve Öneriler Raporu
+
+## Yıpranma Oranı Tanımı
+
+Yıpranma oranı, bir organizasyon içindeki çalışanların işten ayrılma oranını ifade eder. Bu oran çeşitli nedenlerden kaynaklanabilir:
+
+-   Çalışanların daha iyi fırsatlar arayışı.
+-   Negatif çalışma ortamı.
+-   Kötü yönetim.
+-   Çalışanın hastalanması veya ölümü.
+-   Aşırı çalışma saatleri.
+
+# Veri Analizinden Elde Edilen Ana Bulgular
+
+### 1. Demografik Veriler ve Karşılaştırması
+
+Yaş ve Performans Değerleri: 30-40 yaş arası çalışanlar, hem performans derecelendirmelerinde (3 ve 4) yoğunluk göstermektedir. Medyan yaş yaklaşık 35'tir. Cinsiyete göre performans karşılaştırmalarında benzer desenler gözlenmekte, ancak erkeklerde performans seviyesi 3 olanların sayısı daha fazladır. Eğitim seviyeleri arttıkça çalışan sayısı azalmaktadır. Evlilik durumu grafikleri ise birbirine benzerdir.
+
+### 2. Yaşa ve Cinsiyete Göre Yıpranma Oranı
+
+Erkek çalışanların yıpranma oranı kadınlardan daha yüksektir ve ortalama yaş 37'dir. Dağılımlar normal dağılıma oldukça yakındır.
+
+### 3. Maaş Dağılımı ve Yıpranma Oranı
+
+Erkek ve kadın çalışanların maaşları birbirine benzer, ancak erkeklerde maaş dalgalanması daha fazladır ve yıpranma oranı da yüksektir. Erkeklerde 7k-13k maaş aralığında çalışanların yıpranma oranı yüksektir, bunun nedeni satış departmanında çalışmalarıdır.
+
+### 4. Maaş Artışı Yüzdesi ve Yıpranma Oranı
+
+Yıpranma oranı %20-25 aralığında yüksektir. Bu aralıktaki çalışanların performans derecelendirmesi 4 (yüksek seviye) olmasına rağmen, ortalama maaş olan 6500'den çok daha düşük aylık gelirleri vardır (3800). Bu, iş memnuniyetinin düşük olmasının bir sebebi olabilir.
+
+### 5. Cinsiyete Göre Yıpranma Oranı
+
+Erkeklerde yıpranma oranı %2.2 daha fazladır. Araştırmalara göre, erkeklerde boşanma oranı kadınlardan belirgin şekilde yüksektir ve bu durum iş yaşamını etkileyebilir.
+
+### 6. Departmana Göre Yıpranma Oranı
+
+HR ve satış departmanlarında belirgin farklar vardır. Satış departmanında iş tatmini 1, 2, 3 ve 4 arasında eşit dağılmıştır.
+
+### 7. İş Seyahatine Göre Yıpranma Oranı
+
+Sık seyahat eden çalışanların yıpranma oranı yüksektir. Çoğunlukla yalnız yaşayan bu çalışanların iş yaşam dengesi ortalama seviyededir.
+
+### 8. Eğitim Alanına Göre Yıpranma Oranı
+
+Teknik alanda diploması olanlar satış departmanında çalışıyor olabilir, bu da yıpranma oranını etkileyebilir. HR çalışanlarının maaşları ortalamanın altında olup, bu durum yıpranmanın ana sebebidir.
+
+### 9. İş Seviyesine Göre Yıpranma Oranı
+
+seviyedeki çalışanların yıpranma oranı yüksektir ve ortalama maaşları 2600 olup, bu durum yıpranmanın ana sebebidir.
+
+### 10. İş-Yaşam Dengesi ve Yıpranma Oranı
+
+İş-yaşam dengesi en düşük olanların yıpranma oranı yüksektir. Bu grubun iş memnuniyeti düşük ve rol değiştirme oranı yüksektir.
+
+### 11. İş Rolleri ve Yıpranma Oranı
+
+Satış ve AR-GE alanlarında yıpranma oranı yüksektir. Özellikle laboratuvar teknisyenlerinin maaşları genel ortalamanın altındadır.
+
+### 12. Zaman Boyutlarına Göre Yıpranma Oranı
+
+Şirkette geçirilen yıllar arttıkça yıpranma oranı azalır. Mevcut yöneticiyle geçen yıllar arttıkça personel kaybı azalır.
+
+### 13. Aylık Gelire Göre Yıpranma Oranı
+
+Daha az maaş alan çalışanların yıpranma oranı daha yüksektir.
+
+### 14. Toplam Çalışma Yıllarına Göre Yıpranma Oranı
+
+Veri analizine göre, toplam çalışma yılları arttıkça yıpranma oranı azalır.
+
+### 15. Çalışan Memnuniyeti
+
+Düşük iş memnuniyeti ve çevre memnuniyeti olan çalışanların yıpranma oranı yüksektir. Sonuç ve Genel Tavsiyeler Şirketin toplam yıpranma oranı %16.1'dir ve erkek çalışanların yıpranma oranı kadınlardan daha fazladır. Şirketin ilk yıllarında, yönetici ve mevcut rolde geçirilen yılların artmasıyla yıpranma oranı azalır. Sık seyahat eden çalışanların yıpranma oranı yüksektir. Satış ve laboratuvar teknisyeni rollerinde yıpranma oranı yüksektir. Düşük iş ve çevre memnuniyeti olan çalışanların yıpranma oranı daha yüksektir.
+
+## Çalışan Katılımı ve Geri Bildirim:
+
+**Anketler ve Geri Bildirim Toplama:** Düzenli çalışan memnuniyeti anketleri düzenleyin ve geri bildirimleri alın. Bu doğrultuda iyileştirmeler yapın. Çalışan Katılımını Teşvik Edin: Çalışanların karar süreçlerine katılımını sağlayarak değerli hissetmelerini sağlayın.
+
+**Eğitim Programları:** Çalışanların yeteneklerini geliştirmelerine olanak tanıyan eğitim programları düzenleyin.
+
+**Kariyer Gelişim Planları:** Çalışanlara kariyer gelişim planları sunarak işlerinde ilerleme fırsatları sağlayın.
+
+**Performans Ödülleri:** Başarılı çalışanları performans ödülleri ile tanıyın ve ödüllendirin.
+
+**Takdir ve Tanıma Programları:** Çalışanların başarılarını düzenli olarak takdir edin ve tanıyın. Bu, motivasyonu ve şirkete bağlılığı artırabilir. Bu stratejiler, çalışan memnuniyetini artırarak işten ayrılma oranlarını düşürebilir ve genel iş yeri atmosferini iyileştirebilir. Şirketimizin mevcut analiz sonuçlarına göre final raporu bu şekildedir teşekkürler.
